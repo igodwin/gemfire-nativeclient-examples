@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Well-formed and valid xml file -->
+<client-cache>
+
+  <region name = "testSSLRegion" >
+    <region-attributes refid="CACHING_PROXY" pool-name="examplePool" />
+  </region>
+  <pool name="examplePool">
+    <locator host="localhost" port="10334" />
+  </pool>
+
+</client-cache>
